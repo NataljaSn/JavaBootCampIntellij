@@ -19,12 +19,13 @@ public class AddWholeNum {
 		}
 		System.out.println("Addition of Whole Numbers from 1 to 50 = " + total);
 		
-		total = 0;
-		
-		// complete the code. write for loop for i
-		total = total + i;
+		int total1 = 0;
+
+				// complete the code. write for loop for i
+		for (int j = 50; j <= 100; j++){
+			total1 = total1 + j;
 		}
-		System.out.println("Addition of Whole Numbers from 50 to 100 = " + total);
+		System.out.println("Addition of Whole Numbers from 50 to 100 = " + total1);
 
 
 	}

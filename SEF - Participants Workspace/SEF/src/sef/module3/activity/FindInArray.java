@@ -15,7 +15,7 @@ public class FindInArray {
 	public static void main(String[] args) {
 		
 		// Create an integer array
-		int[] nums = {100, 1, 4, 15};
+		int[] nums = {98, 1, 8, 15};
 		
 		int result = nums[0];
 		

@@ -32,9 +32,12 @@ public class Calculator {
 	private static int subtract(int x, int y) {
 		int diff = 0;
 		if (x > y) {
+			int subtract = x - y;
+			return subtract;
 			// complete the code
 		} else {
 			// complete the code
+
 		}
 
 		return diff;
@@ -54,8 +57,18 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
+			System.out.println("Divide by zero impossible ");
 		} else {
 			// complete the code
+			int div = 0;
+			if (x > y) {
+				int divide = x / y;
+				return divide;
+				// complete the code
+			} else {
+				// complete the code
+
+			}
 		}
 		return divValue;
 
