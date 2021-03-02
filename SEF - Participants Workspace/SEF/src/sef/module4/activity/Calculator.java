@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sef.module4.activity;
+package activity;
 
 /**
  * @author 
@@ -11,7 +11,7 @@ public class Calculator {
 
 	
 	private String calculatorType;
-	public static final String CALC_TYPE_BASIC = "Basic";
+	public static final String CALC_TYPE_NORMAL = "Normal";
 	
 	// Default constructor
 	public Calculator() {}
@@ -30,7 +30,7 @@ public class Calculator {
 	public void setCalculatorType(String calculatorType) {
 		this.calculatorType = calculatorType;
 	}
-	
+
 	// Add 
 	public int add(int x, int y) {
 		int sum = x + y;
