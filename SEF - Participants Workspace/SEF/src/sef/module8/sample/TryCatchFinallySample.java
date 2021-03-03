@@ -1,4 +1,4 @@
-package sef.module8.sample;
+package sample;
 // Needs to be completed
 public class TryCatchFinallySample {
 
@@ -7,7 +7,8 @@ public class TryCatchFinallySample {
 	
 	public static void main(String[] args) {
 		//1 - Create an instance of TryCatchFinallySample and call catchMeIfYouCan()
-		
+		TryCatchFinallySample obj = new TryCatchFinallySample();
+		obj.catchMeIfYouCan();
 	}
 	
 	public void catchMeIfYouCan()

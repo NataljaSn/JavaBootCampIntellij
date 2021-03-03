@@ -1,4 +1,4 @@
-package sef.module8.activity;
+package activity;
 //Needs to be completed
 //This program accepts a user name and checks user's validity
 //The user name is checked against an array of names.
@@ -7,7 +7,9 @@ public class CustomExceptionActivityTest {
 
 	//1 - Type main method and call validateUser() from it.
 	//Call this method with different names to test it 
-
+    public static void main(String[] args) {
+        CustomExceptionActivityTest test = new CustomExceptionActivityTest();
+    }
 
 void validateUser(String name)
 {

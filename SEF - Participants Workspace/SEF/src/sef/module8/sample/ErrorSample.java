@@ -1,4 +1,4 @@
-package sef.module8.sample;
+package sample;
 // Needs to be completed
 public class ErrorSample {
 	
@@ -12,9 +12,9 @@ public class ErrorSample {
 	//At one point in time, JVM would give up and show StackOverflowError
 	public static void infinity(){
 		//1 - Print a message
-	
+	System.out.println("Infinity!");
 		
 		//2 - Call infinity()
-	
+	//infinity();
 	}
 }

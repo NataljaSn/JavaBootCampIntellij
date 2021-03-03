@@ -1,4 +1,4 @@
-package sef.module8.sample;
+package sample;
 // Needs to be completed
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -16,9 +16,13 @@ public class CheckedExceptionSample {
 			//else it would not compile since
 			//FilenotFoundException is a checked exception. 
 			//1 - Instantiate reader and pass fileName as a parameter
+			reader = new FileReader(fileName);
 			
-			
+		} catch(FileNotFoundException ex) {
+			System.out.println(ex.getMessage());
+			System.out.println("File" +fileName+ " not found");
+		}
 		}
 		//2 - catch FileNotFoundException 
 	}
-}
+
