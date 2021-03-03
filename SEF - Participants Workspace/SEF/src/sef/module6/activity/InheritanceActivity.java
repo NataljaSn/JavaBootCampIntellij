@@ -1,6 +1,8 @@
-package sef.module6.activity;
+package activity;
 
 
+import sample.Person_I;
+import sample.Student_I;
 
 public class InheritanceActivity {
 
@@ -8,13 +10,20 @@ public class InheritanceActivity {
 		
 		// Create Person object p. Write code to and set name of Person as Sarah Johnson
 		// and age as 21
-		
-		
+		sample.Person_I p = new Person_I();
+		p.setName("Sarah Johnson");
+		p.setAge(21);
+
 		
 		System.out.println("-----------------------------");
 		//Create Employee object e and 
 		// set salary as 70000, title as Developer, age as 32 and name as Shawn Cun
-		
+		Employee_I e = new Employee_I (); // Notice that Student_I constructor calls Person_I constructor
+		e.setSalary(70000);
+		e.setTitle("Developer");
+		e.setAge(32);
+		e.setName("Shawn Cun");
+
 		
 		
 		// Print Info using Employee object

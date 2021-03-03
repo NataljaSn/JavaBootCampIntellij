@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/activity/Point2DImpl.class" />
+      <file url="file://$PROJECT_DIR$/activity/Point2DTest.class" />
+      <file url="file://$PROJECT_DIR$/activity/Point3D.class" />
+      <file url="file://$PROJECT_DIR$/activity/Point3DImpl.class" />
+      <file url="file://$PROJECT_DIR$/activity/Point3DTest.class" />
+      <file url="file://$PROJECT_DIR$/sample/Moveable.java" />
+      <file url="file://$PROJECT_DIR$/sample/InterfaceSample.java" />
+      <file url="file://$PROJECT_DIR$/sample/Lion.java" />
+      <file url="file://$PROJECT_DIR$/sample/Bird.java" />
+    </excludeFromCompile>
+  </component>
+</project>

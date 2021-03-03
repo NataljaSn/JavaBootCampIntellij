@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 public class Employee_A extends Person_A{
 
@@ -14,16 +14,19 @@ public class Employee_A extends Person_A{
 	
 	// getter for double salary
 	public double getSalary() {
+
 		return salary;
 	}
 	
 	// setter for double salary
 	public void setSalary(double salary) {
+
 		this.salary = salary;
 	}
 	
 	// getter for String title
 	public String getTitle() {
+
 		return title;
 	}
 	

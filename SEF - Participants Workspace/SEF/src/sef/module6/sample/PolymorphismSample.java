@@ -1,13 +1,13 @@
-package sef.module6.sample;
+package sample;
 
 public class PolymorphismSample {
 
 	
 	public static void main(String arg[]){
 		
-		Person_P p = new Person_P();
+		Person_P p = new Person_P(); //static binding
 		Student_P s = new Student_P();
-		Person_P ps = new Student_P();
+		Person_P ps = new Student_P(); // dynamic binding: dynamically changed behaviour of ps person class
 		
 			
 		s.setGrade(10);

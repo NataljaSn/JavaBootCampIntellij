@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 public class InheritanceSample {
 
@@ -8,7 +8,7 @@ public class InheritanceSample {
 		Person_I p = new Person_I();
 		p.setName("John Doe");
 		p.setAge(18);
-		
+		//(ns) - p & s are reference variables
 		System.out.println("-----------------------------");
 		//Student_I inherit the methods and behavior from the Person_I class
 		Student_I s = new Student_I(); // Notice that Student_I constructor calls Person_I constructor
@@ -50,6 +50,8 @@ public class InheritanceSample {
 		// Usage of 'super'
 		System.out.println("-----------------------------");
 		s.announce();
-		
+		// in Person_I.java public void announce(){
+		//		System.out.println("Inside Person Class");
+		//	}
 	}
 }

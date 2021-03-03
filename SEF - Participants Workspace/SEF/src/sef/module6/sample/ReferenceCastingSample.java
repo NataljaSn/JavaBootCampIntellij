@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 public class ReferenceCastingSample {
 
@@ -10,9 +10,9 @@ public class ReferenceCastingSample {
 		s.setGrade(10);
 		
 		// Sample reference casting
-		Person_P tempPerson = s; // convert student to person
+		Person_P tempPerson = s; // convert student to person// upwards casting
 		tempPerson.announce();
-		Student_P tempStudent = (Student_P)tempPerson; // convert person to student
+		Student_P tempStudent = (Student_P)tempPerson; // convert person to student // downwards casting
 		tempStudent.announce();
 	}
 }
