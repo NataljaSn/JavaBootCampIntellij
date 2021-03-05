@@ -1,34 +1,34 @@
-package sef.module17.activity;
+package activity;
 // Complete Code
 class Employee {
 
-	String id;
+	int id;
 	String firstName;
 	String lastName;
 	int salary;
-	public String getId() {
-		return id;
+	public int getId() {
+				return id;
 	}
-	public void setId(String id) {
-		this.id = id;
+	public void setId(int id) {
+				this.id = id;
 	}
 	public String getFirstName() {
 		return firstName;
 	}
 	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+				this.firstName = firstName;
 	}
 	public String getLastName() {
-		return lastName;
+			return lastName;
 	}
 	public void setLastName(String lastName) {
-		this.lastName = lastName;
+				this.lastName = lastName;
 	}
 	public int getSalary() {
-		return salary;
+				return salary;
 	}
 	public void setSalary(int salary) {
-		this.salary = salary;
+				this.salary = salary;
 	}
 	
 	

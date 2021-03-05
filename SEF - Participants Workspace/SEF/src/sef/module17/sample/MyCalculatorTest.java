@@ -1,9 +1,10 @@
-package sef.module17.sample;
+package sample;
 // Complete Code
 import junit.framework.TestCase;
+//import org.junit.Test;
 
 public class MyCalculatorTest extends TestCase {
-
+	//!!! extends - to start using Testing library
 	private MyCalculator theCalculator;
 
 	protected void setUp() throws Exception {
@@ -14,6 +15,7 @@ public class MyCalculatorTest extends TestCase {
 
 	protected void tearDown() throws Exception {
 		super.tearDown();
+		//these 2 upper ones automatically executed
 	}
 
 	public void testGetSum() {
@@ -22,11 +24,11 @@ public class MyCalculatorTest extends TestCase {
 		int b = 10;			
 		//	Checks the sum of two (2) positive values
 		assertEquals(15, (theCalculator.getSum(a,b)));
-		assertEquals(15, (theCalculator.getSum(b,a)));		
+		assertEquals(15, (theCalculator.getSum(b,a)));
 
 		a = -5;		
 		b = 10;		
-		//	Checks the sum of a postive value and a negative value
+		//	Checks the sum of a positive value and a negative value
 		assertEquals(5, (theCalculator.getSum(a,b)));
 		assertEquals(5, (theCalculator.getSum(b,a)));
 		
