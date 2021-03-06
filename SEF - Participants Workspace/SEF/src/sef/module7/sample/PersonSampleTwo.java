@@ -1,10 +1,11 @@
-package sef.module7.sample;
+package sample;
 
 public class PersonSampleTwo {
 
 	private String name;
 	private int age;
-	
+
+	//constructor:
 	public PersonSampleTwo(String name, int age){
 		setName(name);
 		setAge(age);

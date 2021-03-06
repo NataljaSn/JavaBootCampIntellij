@@ -9,9 +9,9 @@ public abstract class Shape {
 	}
 
 	// Complete the code and Add abstract method calculateArea() and calculatePerimeter() with return type as double
-	public abstract double CalculateArea();
+	abstract double CalculateArea();
 
-	public abstract double calculatePerimeter();
+	abstract double calculatePerimeter();
 
 
 	public void setColor(String c) {

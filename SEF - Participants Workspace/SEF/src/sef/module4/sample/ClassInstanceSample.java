@@ -19,6 +19,7 @@ public class ClassInstanceSample {
 		him.setName("John");
 		String name = him.getName();
 		System.out.println(name);
+
 		
 		//This will cause the object pointed by 'her' to be garbage collected
 		//since there are no more remaining references to that object

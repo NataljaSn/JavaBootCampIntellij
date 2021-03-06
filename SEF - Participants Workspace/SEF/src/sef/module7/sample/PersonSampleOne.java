@@ -1,4 +1,4 @@
-package sef.module7.sample;
+package sample;
 
 public class PersonSampleOne {
 	String name;

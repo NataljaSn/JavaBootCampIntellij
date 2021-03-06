@@ -18,7 +18,7 @@ void catchMeIfYouCan()
 		System.out.println(arr[i]);
 	}
 	}catch (Exception ex){
-		System.out.println("An error" +ex.getMessage());
+		System.out.println("An error:" +ex.getMessage());
 	}
 		finally	{
 		System.out.println("This should get printed even if there is an exception");

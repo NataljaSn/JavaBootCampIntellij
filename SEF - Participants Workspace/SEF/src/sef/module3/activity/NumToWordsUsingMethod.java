@@ -60,7 +60,8 @@ public class NumToWordsUsingMethod {
 		NumToWordsUsingMethod.myNumbers(8);
 		NumToWordsUsingMethod.myNumbers(9);
 		NumToWordsUsingMethod.myNumbers(10);
-		}
+
+				}
 
 
 		}

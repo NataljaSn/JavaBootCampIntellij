@@ -3,9 +3,7 @@
   <component name="CompilerConfiguration">
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/sample/CastingSample.java" />
-      <file url="file://$PROJECT_DIR$/sample/MethodSample.java" />
       <file url="file://$PROJECT_DIR$/sample/MultiDimensionalArraySample.java" />
-      <file url="file://$PROJECT_DIR$/activity/NumToWordsUsingMethod.java" />
     </excludeFromCompile>
     <bytecodeTargetLevel target="15" />
   </component>

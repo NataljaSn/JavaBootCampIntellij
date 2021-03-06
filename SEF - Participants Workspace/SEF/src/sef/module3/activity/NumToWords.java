@@ -20,7 +20,7 @@ public class NumToWords {
 		String numText = "";
 
 		switch(i) {
-		
+
 		case 1:
 			numText = "ONE";break;
 		case 2:
@@ -46,7 +46,8 @@ public class NumToWords {
 		}
 		
 		System.out.println(numText);
-		
+
+		// complete the code to print text value of 8, 9 and 10
 	
 	}
 	

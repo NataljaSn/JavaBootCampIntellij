@@ -23,7 +23,7 @@ public class StaticSample2 {
 		
 		
 		//static code block sample
-		StaticSample2 temp3  = new StaticSample2(50, 4);
+		StaticSample2 temp3  = new StaticSample2(4,15);
 		System.out.println(temp3.time);
 		System.out.println(temp3.speed);
 		System.out.println(temp3.distance);  // distance is not evaluated as per formula given in the static code block
@@ -35,6 +35,7 @@ public class StaticSample2 {
 	{
 		System.out.println("Static code blocks are executed only once during the first time that the class is loaded by the JVM");
 		distance = speed * time;
+
 	}
 		
 }
